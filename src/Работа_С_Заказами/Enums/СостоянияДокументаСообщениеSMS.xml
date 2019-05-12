@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Enum uuid="fc2dc893-2c97-4f12-a6c4-c10dfdf622cc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияДокументаСообщениеSMS" category="Ref">
+				<xr:TypeId>bfcf91bd-82e9-4d79-a2fb-8b7efb681c2e</xr:TypeId>
+				<xr:ValueId>294081c5-83c2-4281-9c83-c35854a34f66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияДокументаСообщениеSMS" category="Manager">
+				<xr:TypeId>9d4eb094-5933-40f6-974a-9b9da602ad0f</xr:TypeId>
+				<xr:ValueId>58147aac-27e1-4742-bbf3-a91a278c2ddd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияДокументаСообщениеSMS" category="List">
+				<xr:TypeId>7561fb26-5b9b-4c90-9f6c-3f38a909848c</xr:TypeId>
+				<xr:ValueId>961d73f9-3f0d-423d-80fd-3b0a1c1b1dbb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияДокументаСообщениеSMS</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

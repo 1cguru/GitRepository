@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Document uuid="336b5f66-b1a3-4f62-91a8-456d9107cd02">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗапланированноеВзаимодействие" category="Object">
+				<xr:TypeId>ff12f5ee-ee48-4b60-9be8-e8f5cf7e855f</xr:TypeId>
+				<xr:ValueId>57971f2d-f577-45db-bda1-7b7167cc13ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗапланированноеВзаимодействие" category="Ref">
+				<xr:TypeId>3df91041-ba7e-4d20-81c0-f25785d9b813</xr:TypeId>
+				<xr:ValueId>b444f4e8-6a21-4099-a428-de64cde1554b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗапланированноеВзаимодействие" category="Selection">
+				<xr:TypeId>770a1157-798b-45e2-ad76-e81eefac7ea3</xr:TypeId>
+				<xr:ValueId>b12c502d-fa58-48c0-8b21-9a7bd598cd86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗапланированноеВзаимодействие" category="List">
+				<xr:TypeId>0786bd14-2c2c-4961-b2af-bb1478e26841</xr:TypeId>
+				<xr:ValueId>f67fce4a-b079-4075-9a2d-6b4d7c273670</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗапланированноеВзаимодействие" category="Manager">
+				<xr:TypeId>9601c2d7-f6bb-46a8-bcb5-4d5f0f72477b</xr:TypeId>
+				<xr:ValueId>72bf1ea8-7006-47aa-91c6-f6e09d4d361c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗапланированноеВзаимодействие</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

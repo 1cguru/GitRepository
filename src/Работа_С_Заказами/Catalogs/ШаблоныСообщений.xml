@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="7c50aac0-8e8b-42a6-83cd-53a78ca3b7f7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныСообщений" category="Object">
+				<xr:TypeId>3f9164a4-7600-40b0-828f-e64d7eecd95d</xr:TypeId>
+				<xr:ValueId>9f273fe3-c41c-421c-8a81-768184729762</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныСообщений" category="Ref">
+				<xr:TypeId>fa344f49-1656-4aec-b6e1-2cde218a7741</xr:TypeId>
+				<xr:ValueId>31fe207d-d22a-4412-b6ce-16838503b8e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныСообщений" category="Selection">
+				<xr:TypeId>66a8d46c-a045-4ae8-8c81-355e759b9707</xr:TypeId>
+				<xr:ValueId>64def458-1236-4f63-b303-9b2843670842</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныСообщений" category="List">
+				<xr:TypeId>087f4ce6-d1d9-448c-a789-cc71e04484ef</xr:TypeId>
+				<xr:ValueId>f36d670f-3e6f-4c64-b364-40a56f4041f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныСообщений" category="Manager">
+				<xr:TypeId>a9b4b1ed-3636-45d5-856c-3d2dea0ac13f</xr:TypeId>
+				<xr:ValueId>49c4e2ef-9282-4299-a6be-4511b745f1aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ШаблоныСообщений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a7f6937a-d845-4344-8e14-36c277251ce1">
+				<Properties>
+					<Name>ВнешняяОбработка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДополнительныеОтчетыИОбработки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="883bf5cb-3df6-4410-bfbb-e7a6a754cb6b">
+				<Properties>
+					<Name>ТемаПисьма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b18e863d-05a0-4d68-8687-1737721cf3f9">
+				<Properties>
+					<Name>ВладелецШаблона</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ВладелецШаблонаСообщения</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9004b4bb-8913-4bdb-907b-13fea28060cc">
+				<Properties>
+					<Name>ОтправлятьВТранслите</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3f212960-1fa3-49d8-a1d1-656a13896968">
+				<Properties>
+					<Name>Автор</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cc5a82c1-3a40-4dd5-963d-5cb3cb9b00be">
+				<Properties>
+					<Name>ПолноеИмяТипаПараметраВводаНаОсновании</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="325dff9f-7eae-4634-98bc-4d081cb35b33">
+				<Properties>
+					<Name>УпаковатьВАрхив</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e242a10a-24ef-4faa-a018-ce5fcd31569e">
+				<Properties>
+					<Name>ТранслитерироватьИменаФайлов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c8b50599-8d16-4816-86d7-330779a0a832">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ШаблоныСообщений.Параметры" category="TabularSection">
+						<xr:TypeId>5cd656d2-d77f-43df-953a-e9921f1b489e</xr:TypeId>
+						<xr:ValueId>4187930c-3fec-4566-96bc-58a9602acaf9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ШаблоныСообщений.Параметры" category="TabularSectionRow">
+						<xr:TypeId>d8e7d6c1-3082-435d-a322-e96b9b1bb056</xr:TypeId>
+						<xr:ValueId>d3fd2b69-3abb-4097-b9e6-d96741542eae</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Параметры</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

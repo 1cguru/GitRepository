@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="4d48b6f9-c9d5-4b44-ad42-cea1b1d21686">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыОповещенийКлиентам" category="Object">
+				<xr:TypeId>16457e62-c16c-477d-9e6c-f634af3dc181</xr:TypeId>
+				<xr:ValueId>90396955-ecfd-4363-8535-8032c48b0542</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыОповещенийКлиентам" category="Ref">
+				<xr:TypeId>4bc08c99-1c67-4589-9a99-3927432925cd</xr:TypeId>
+				<xr:ValueId>29c3bcdc-34c8-432c-acc0-d43a98259595</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыОповещенийКлиентам" category="Selection">
+				<xr:TypeId>8eb47a6d-ccab-43fb-9110-4d88c4897b04</xr:TypeId>
+				<xr:ValueId>151aa67f-88e7-45cb-8ef9-f351e43de22d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыОповещенийКлиентам" category="List">
+				<xr:TypeId>d8b604a7-2650-4249-9005-ba93702c058c</xr:TypeId>
+				<xr:ValueId>19f353cc-a927-4ee0-8d9f-8fcc5493a017</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыОповещенийКлиентам" category="Manager">
+				<xr:TypeId>d1837cb5-6d74-425e-a14e-d236a7ade699</xr:TypeId>
+				<xr:ValueId>27fe5ee2-c4b9-4849-9d2b-5f9254551ea2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОповещенийКлиентам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="073460a5-69e4-4989-876c-6bbd36a1758c">
+				<Properties>
+					<Name>ПредназначенаДляSMS</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="59b777fd-50dc-43a0-9599-1c0a281addd2">
+				<Properties>
+					<Name>ГруппаРассылокИОповещений</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыРассылокИОповещений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e2e39c3-e177-4b2d-924b-bd4f066400d7">
+				<Properties>
+					<Name>ТипСобытия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыСобытийОповещений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d9bcce6e-94ce-4e12-aa6c-8e880df79634">
+				<Properties>
+					<Name>ПредназначенаДляЭлектронныхПисем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8cb0ae66-e14c-4d46-921d-343dc2d6b1a3">
+				<Properties>
+					<Name>ШаблонСообщенияSMS</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныСообщений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ea9d0e6-2739-4ad9-98a8-9eb439f475cd">
+				<Properties>
+					<Name>ШаблонЭлектронногоПисьма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныСообщений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3d385400-ae2f-4f2c-9270-304e991dc9b8">
+				<Properties>
+					<Name>ИспользуетсяУсловиеОтправки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="654b644d-492c-454e-855e-18da093d1566">
+				<Properties>
+					<Name>УсловиеОтправки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c3e410c0-45c5-404d-8382-d85cfb7a27c4">
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

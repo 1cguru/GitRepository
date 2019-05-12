@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Enum uuid="992f0a22-9e5f-4c37-b363-e3f1ad54329c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСобытийОповещений" category="Ref">
+				<xr:TypeId>ce1ccd8d-ffcd-49a6-8097-c8ecbf9f267b</xr:TypeId>
+				<xr:ValueId>13af2713-a400-4904-970a-e637cbed0343</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСобытийОповещений" category="Manager">
+				<xr:TypeId>878161a6-6f45-48d7-9ae3-1ef62b7f792c</xr:TypeId>
+				<xr:ValueId>f98dc929-c940-4884-9c30-120832210b86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСобытийОповещений" category="List">
+				<xr:TypeId>070890c2-cb43-4c73-baee-abe5b589fe3f</xr:TypeId>
+				<xr:ValueId>ba8a8f6d-fa72-4d40-b5b3-588f1ce0ec79</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыСобытийОповещений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8832f0e9-4ea7-4c2f-9d58-40a343b13c3e">
+				<Properties>
+					<Name>ПоступлениеОплатыОтКлиента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="65415a80-5c4c-4bf2-a761-41e8118f4289">
+				<Properties>
+					<Name>ИзменениеСостоянияЗаказа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8a405b45-3437-486b-934a-077fab95f3b6">
+				<Properties>
+					<Name>ПросроченнаяЗадолженность</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="41399360-53c2-461a-99cf-2eb7926c8fac">
+				<Properties>
+					<Name>ПлановыеОтгрузки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

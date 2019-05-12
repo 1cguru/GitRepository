@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<InformationRegister uuid="8be2c870-9d60-41b4-95d6-54a9bc11f30e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеПоследнихОповещений" category="Record">
+				<xr:TypeId>2ac39d35-4329-43d4-9862-7b91137a203d</xr:TypeId>
+				<xr:ValueId>bf74cc51-65bb-4f5d-a268-c34522fdf1e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеПоследнихОповещений" category="Manager">
+				<xr:TypeId>0f92cce1-f64a-4d09-a85b-79b17ca4e4a7</xr:TypeId>
+				<xr:ValueId>4730c76f-2376-4998-877d-171423020d92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеПоследнихОповещений" category="Selection">
+				<xr:TypeId>765e470e-9703-4de6-8d05-9b21a985a76c</xr:TypeId>
+				<xr:ValueId>4682722d-a7cc-4276-bac8-0ac6b064cb83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеПоследнихОповещений" category="List">
+				<xr:TypeId>29270c78-5ad5-41aa-a9b1-5e64fb322358</xr:TypeId>
+				<xr:ValueId>45114e17-3fe9-4760-848d-e232bba09cc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеПоследнихОповещений" category="RecordSet">
+				<xr:TypeId>87046f7c-72fe-4a33-9ee8-c4e6a6b5cd60</xr:TypeId>
+				<xr:ValueId>cdd01736-a297-48a9-8b62-ec063249629c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеПоследнихОповещений" category="RecordKey">
+				<xr:TypeId>bd2a1cef-43f2-4d0c-9262-02824ba4bc49</xr:TypeId>
+				<xr:ValueId>5e41759e-95ff-4ff0-be01-92b0dda7ccea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеПоследнихОповещений" category="RecordManager">
+				<xr:TypeId>359284f8-0f9a-428e-a3e2-ffb91cc3acd3</xr:TypeId>
+				<xr:ValueId>2a388298-2e32-4ba0-8704-a0c08a6e647c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДанныеПоследнихОповещений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultRecordForm>InformationRegister.ДанныеПоследнихОповещений.Form.Работа_С_Заказами_ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0fc4d9b1-5364-4e36-8945-a57cd38079a9">
+				<Properties>
+					<Name>ДанныеПоследнегоОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="633bd07d-d685-4d98-84ef-148ec869fe18">
+				<Properties>
+					<Name>ВидОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыОповещенийКлиентам</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8534a93d-0e2a-4f12-ae10-a491001a74c0">
+				<Properties>
+					<Name>ИсточникОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2af69d86-4ad2-4a32-8e12-a25d85302cba">
+				<Properties>
+					<Name>Подписчик</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>Работа_С_Заказами_ФормаЗаписи</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

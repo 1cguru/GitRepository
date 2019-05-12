@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="86cb84bf-5e17-49e5-9c5a-01cc98e8d98a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыРассылокИОповещений" category="Object">
+				<xr:TypeId>042c4248-1ed2-439a-b567-201155d7ecc5</xr:TypeId>
+				<xr:ValueId>795b18e5-f1a4-4739-af1f-c312fcd8b3a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыРассылокИОповещений" category="Ref">
+				<xr:TypeId>b3423e54-a008-48de-a3a7-284cd5d419a4</xr:TypeId>
+				<xr:ValueId>a964dea6-9752-414b-b26a-a36b4ecbdc7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыРассылокИОповещений" category="Selection">
+				<xr:TypeId>5e2f430c-6478-4919-92fe-b4b2b37c5323</xr:TypeId>
+				<xr:ValueId>59dc9184-01f0-4d70-bce2-b471f9b86d90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыРассылокИОповещений" category="List">
+				<xr:TypeId>fcd41021-3f70-4703-9996-f6b027db0c8a</xr:TypeId>
+				<xr:ValueId>7871a6d7-035e-46ae-9a09-38fcb5b7e867</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыРассылокИОповещений" category="Manager">
+				<xr:TypeId>76241701-fe9c-4482-b37a-715a93b9c870</xr:TypeId>
+				<xr:ValueId>11d2ac54-bfbf-4746-b301-e26f63a1f6b2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыРассылокИОповещений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5fff8dd0-4898-46d2-a6e7-a01a88111e3c">
+				<Properties>
+					<Name>Описание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2d6d84f-b75d-4b37-a64b-75743b5ed25f">
+				<Properties>
+					<Name>ОтправлятьКонтактномуЛицуОбъектаОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0738579d-034b-470d-962b-b656f48f17b8">
+				<Properties>
+					<Name>СрокХраненияСообщений</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9eca8d83-4dd7-458c-b2c4-0c495a8d38f7">
+				<Properties>
+					<Name>ОтправлятьПартнеру</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="506078a6-e43f-4f9b-b250-9f856e38f153">
+				<Properties>
+					<Name>ОтправлятьКонтактнымЛицамРоли</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="357fb6ff-d608-4d07-b62b-86fe6254dbe7">
+				<Properties>
+					<Name>РольКонтактногоЛица</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РолиКонтактныхЛицПартнеров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="70b528f9-aea6-4135-84be-6e7179bea572">
+				<Properties>
+					<Name>ПредназначенаДляЭлектронныхПисем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="abf28813-726b-49b4-9efa-d25cd5ef0163">
+				<Properties>
+					<Name>УчетнаяЗапись</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УчетныеЗаписиЭлектроннойПочты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="de522638-ef88-40ee-b3c4-83ab373dd092">
+				<Properties>
+					<Name>ВидКонтактнойИнформацииПартнераДляПисем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7f0f5ca2-c31e-4f75-8fd5-08c9e1e19fb2">
+				<Properties>
+					<Name>ВидКонтактнойИнформацииКонтактногоЛицаДляПисем</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d30774fe-8fce-4e98-afe3-de9c110af0fe">
+				<Properties>
+					<Name>ПредназначенаДляSMS</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd72499f-630b-4f37-acb1-df5142ebb639">
+				<Properties>
+					<Name>ВидКонтактнойИнформацииПартнераДляSMS</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4c3e5b10-5255-4600-9ad3-f021e0000c12">
+				<Properties>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b0ddc3bf-6c40-4976-be1b-31c61b770ba0">
+				<Properties>
+					<Name>ВидКонтактнойИнформацииКонтактногоЛицаДляSMS</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

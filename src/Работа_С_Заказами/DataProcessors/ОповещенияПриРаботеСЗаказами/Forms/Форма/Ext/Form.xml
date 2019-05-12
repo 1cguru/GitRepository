@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройка отправки оповещений при работе с заказами</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="129">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="130"/>
+			<ChildItems>
+				<InputField name="ДатаНачалаОтслеживанияГотовностиЗаказовКОтгрузке" id="126">
+					<DataPath>ДатаНачалаОтслеживанияГотовностиЗаказовКОтгрузке</DataPath>
+					<ContextMenu name="ДатаНачалаОтслеживанияГотовностиЗаказовКОтгрузкеКонтекстноеМеню" id="127"/>
+					<ExtendedTooltip name="ДатаНачалаОтслеживанияГотовностиЗаказовКОтгрузкеРасширеннаяПодсказка" id="128"/>
+				</InputField>
+				<InputField name="ДнейБесплатногоХраненияТоваров" id="131">
+					<DataPath>ДнейБесплатногоХраненияТоваров</DataPath>
+					<ContextMenu name="ДнейБесплатногоХраненияТоваровКонтекстноеМеню" id="132"/>
+					<ExtendedTooltip name="ДнейБесплатногоХраненияТоваровРасширеннаяПодсказка" id="133"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="НастройкиОтправкиОповещений" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки отправки оповещений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки отправки оповещений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="НастройкиОтправкиОповещенийРасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<UsualGroup name="НастройкиДляМенеджеров" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки для менеджеров</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>#003366</TitleTextColor>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки для менеджеров</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="НастройкиДляМенеджеровРасширеннаяПодсказка" id="50"/>
+					<ChildItems>
+						<CheckBoxField name="ОтправлятьМенеджерамSMSОПолныхОплатахЗаказовКлиентов" id="53">
+							<DataPath>ОтправлятьМенеджерамSMSОПолныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьМенеджерамSMSОПолныхОплатахЗаказовКлиентовКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ОтправлятьМенеджерамSMSОПолныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="55"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьМенеджерамSMSОЧастичныхОплатахЗаказовКлиентов" id="56">
+							<DataPath>ОтправлятьМенеджерамSMSОЧастичныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьМенеджерамSMSОЧастичныхОплатахЗаказовКлиентовКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ОтправлятьМенеджерамSMSОЧастичныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="58"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьМенеджерамЭлПисьмаОПолныхОплатахЗаказовКлиентов" id="59">
+							<DataPath>ОтправлятьМенеджерамЭлПисьмаОПолныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьМенеджерамЭлПисьмаОПолныхОплатахЗаказовКлиентовКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ОтправлятьМенеджерамЭлПисьмаОПолныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="61"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьМенеджерамЭлПисьмаЧастичныхОплатахЗаказовКлиентов" id="62">
+							<DataPath>ОтправлятьМенеджерамЭлПисьмаЧастичныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьМенеджерамЭлПисьмаЧастичныхОплатахЗаказовКлиентовКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ОтправлятьМенеджерамЭлПисьмаЧастичныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="64"/>
+						</CheckBoxField>
+						<CheckBoxField name="СоздаватьЗадачиМенеджерамПриПолныхОплатахЗаказов" id="68">
+							<DataPath>СоздаватьЗадачиМенеджерамПриПолныхОплатахЗаказов</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СоздаватьЗадачиМенеджерамПриПолныхОплатахЗаказовКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="СоздаватьЗадачиМенеджерамПриПолныхОплатахЗаказовРасширеннаяПодсказка" id="70"/>
+						</CheckBoxField>
+						<CheckBoxField name="СоздаватьЗадачиМенеджерамПриГотовностиЗаказовКОтгрузке" id="65">
+							<DataPath>СоздаватьЗадачиМенеджерамПриГотовностиЗаказовКОтгрузке</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СоздаватьЗадачиМенеджерамПриГотовностиЗаказовКОтгрузкеКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="СоздаватьЗадачиМенеджерамПриГотовностиЗаказовКОтгрузкеРасширеннаяПодсказка" id="67"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="НастройкиДляКлиентов" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки для клиентов</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>#003366</TitleTextColor>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки для клиентов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="НастройкиДляКлиентовРасширеннаяПодсказка" id="52"/>
+					<ChildItems>
+						<CheckBoxField name="ОтправлятьКлиентамSMSОПолныхОплатахЗаказовКлиентов" id="71">
+							<DataPath>ОтправлятьКлиентамSMSОПолныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьКлиентамSMSОПолныхОплатахЗаказовКлиентовКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ОтправлятьКлиентамSMSОПолныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="73"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьКлиентамSMSОЧастичныхОплатахЗаказовКлиентов" id="74">
+							<DataPath>ОтправлятьКлиентамSMSОЧастичныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьКлиентамSMSОЧастичныхОплатахЗаказовКлиентовКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ОтправлятьКлиентамSMSОЧастичныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="76"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьКлиентамЭлПисьмаОПолныхОплатахЗаказовКлиентов" id="80">
+							<DataPath>ОтправлятьКлиентамЭлПисьмаОПолныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьКлиентамЭлПисьмаОПолныхОплатахЗаказовКлиентовКонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="ОтправлятьКлиентамЭлПисьмаОПолныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="82"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьКлиентамЭлПисьмаОЧастичныхОплатахЗаказовКлиентов" id="77">
+							<DataPath>ОтправлятьКлиентамЭлПисьмаОЧастичныхОплатахЗаказовКлиентов</DataPath>
+							<Visible>false</Visible>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьКлиентамЭлПисьмаОЧастичныхОплатахЗаказовКлиентовКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ОтправлятьКлиентамЭлПисьмаОЧастичныхОплатахЗаказовКлиентовРасширеннаяПодсказка" id="79"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОтправлятьОповещенияКлиентамПриОплатеЗаказовНаличными" id="123">
+							<DataPath>ОтправлятьОповещенияКлиентамПриОплатеЗаказовНаличными</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтправлятьОповещенияКлиентамПриОплатеЗаказовНаличнымиКонтекстноеМеню" id="124"/>
+							<ExtendedTooltip name="ОтправлятьОповещенияКлиентамПриОплатеЗаказовНаличнымиРасширеннаяПодсказка" id="125"/>
+						</CheckBoxField>
+						<CheckBoxField name="ОдинДокументСообщениеSMSОтправляетSMSОдномуАдресату" id="85">
+							<DataPath>ОдинДокументСообщениеSMSОтправляетSMSОдномуАдресату</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОдинДокументСообщениеSMSОтправляетSMSОдномуАдресатуКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="ОдинДокументСообщениеSMSОтправляетSMSОдномуАдресатуРасширеннаяПодсказка" id="87"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="97">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="98"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="99">
+					<TextColor>#003366</TextColor>
+					<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предопределенные виды оповещений и шаблоны</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="100"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="101"/>
+				</LabelDecoration>
+				<Button name="ШаблоныСообщенийЗаполнитьТаблицуПредопределеннымиШаблонами" id="95">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.ЗаполнитьТаблицуПредопределеннымиШаблонами</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<PictureLocation>Right</PictureLocation>
+					<ExtendedTooltip name="ШаблоныСообщенийЗаполнитьТаблицуПредопределеннымиШаблонамиРасширеннаяПодсказка" id="96"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ШаблоныСообщений" id="9">
+			<Representation>List</Representation>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>ШаблоныСообщений</DataPath>
+			<TextColor>style:FormTextColor</TextColor>
+			<Font ref="style:NormalTextFont" kind="StyleItem"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предопределенные шаблоны</v8:content>
+				</v8:item>
+			</Title>
+			<TitleTextColor>#339966</TitleTextColor>
+			<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ШаблоныСообщенийКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="ШаблоныСообщенийКоманднаяПанель" id="11">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ШаблоныСообщенийРасширеннаяПодсказка" id="12"/>
+			<SearchStringAddition name="ШаблоныСообщенийСтрокаПоиска" id="13">
+				<AdditionSource>
+					<Item>ШаблоныСообщений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ШаблоныСообщенийСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ШаблоныСообщенийСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ШаблоныСообщенийСостояниеПросмотра" id="16">
+				<AdditionSource>
+					<Item>ШаблоныСообщений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ШаблоныСообщенийСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ШаблоныСообщенийСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ШаблоныСообщенийУправлениеПоиском" id="19">
+				<AdditionSource>
+					<Item>ШаблоныСообщений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ШаблоныСообщенийУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ШаблоныСообщенийУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ШаблоныСообщенийВыбор</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ШаблоныСообщенийИспользовать" id="105">
+					<DataPath>ШаблоныСообщений.Использовать</DataPath>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>Directly</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<ShowInFooter>false</ShowInFooter>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ШаблоныСообщенийИспользоватьКонтекстноеМеню" id="106"/>
+					<ExtendedTooltip name="ШаблоныСообщенийИспользоватьРасширеннаяПодсказка" id="107"/>
+				</CheckBoxField>
+				<InputField name="ШаблоныСообщенийВидОповещения" id="102">
+					<DataPath>ШаблоныСообщений.ВидОповещения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>40</Width>
+					<ContextMenu name="ШаблоныСообщенийВидОповещенияКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="ШаблоныСообщенийВидОповещенияРасширеннаяПодсказка" id="104"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийШаблон" id="22">
+					<DataPath>ШаблоныСообщений.Шаблон</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>47</Width>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<OpenButton>true</OpenButton>
+					<CreateButton>false</CreateButton>
+					<TextEdit>false</TextEdit>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="ШаблоныСообщенийШаблонКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ШаблоныСообщенийШаблонРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийДляКого" id="88">
+					<DataPath>ШаблоныСообщений.ДляКого</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>14</Width>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xs:string">Для клиента</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xs:string">Для менеджера</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ШаблоныСообщенийДляКогоКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="ШаблоныСообщенийДляКогоРасширеннаяПодсказка" id="90"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийТипСобытия" id="134">
+					<DataPath>ШаблоныСообщений.ТипСобытия</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ШаблоныСообщенийТипСобытияКонтекстноеМеню" id="135"/>
+					<ExtendedTooltip name="ШаблоныСообщенийТипСобытияРасширеннаяПодсказка" id="136"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийНазначение" id="29">
+					<DataPath>ШаблоныСообщений.Назначение</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>18</Width>
+					<ContextMenu name="ШаблоныСообщенийНазначениеКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ШаблоныСообщенийНазначениеРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<CheckBoxField name="ШаблоныСообщенийПредназначенДляSMS" id="32">
+					<DataPath>ШаблоныСообщений.ПредназначенДляSMS</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ШаблоныСообщенийПредназначенДляSMSКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ШаблоныСообщенийПредназначенДляSMSРасширеннаяПодсказка" id="34"/>
+				</CheckBoxField>
+				<CheckBoxField name="ШаблоныСообщенийПредназначенДляЭлектронныхПисем" id="35">
+					<DataPath>ШаблоныСообщений.ПредназначенДляЭлектронныхПисем</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ШаблоныСообщенийПредназначенДляЭлектронныхПисемКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ШаблоныСообщенийПредназначенДляЭлектронныхПисемРасширеннаяПодсказка" id="37"/>
+				</CheckBoxField>
+				<InputField name="ШаблоныСообщенийНаименованиеШаблона" id="108">
+					<DataPath>ШаблоныСообщений.НаименованиеШаблона</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ШаблоныСообщенийНаименованиеШаблонаКонтекстноеМеню" id="109"/>
+					<ExtendedTooltip name="ШаблоныСообщенийНаименованиеШаблонаРасширеннаяПодсказка" id="110"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийНаименованиеВидаОповещения" id="111">
+					<DataPath>ШаблоныСообщений.НаименованиеВидаОповещения</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ШаблоныСообщенийНаименованиеВидаОповещенияКонтекстноеМеню" id="112"/>
+					<ExtendedTooltip name="ШаблоныСообщенийНаименованиеВидаОповещенияРасширеннаяПодсказка" id="113"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийГруппаРассылокИОповещений" id="114">
+					<DataPath>ШаблоныСообщений.ГруппаРассылокИОповещений</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ШаблоныСообщенийГруппаРассылокИОповещенийКонтекстноеМеню" id="115"/>
+					<ExtendedTooltip name="ШаблоныСообщенийГруппаРассылокИОповещенийРасширеннаяПодсказка" id="116"/>
+				</InputField>
+				<InputField name="ШаблоныСообщенийНаименованиеГруппыРассылокИОповещений" id="117">
+					<DataPath>ШаблоныСообщений.НаименованиеГруппыРассылокИОповещений</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ШаблоныСообщенийНаименованиеГруппыРассылокИОповещенийКонтекстноеМеню" id="118"/>
+					<ExtendedTooltip name="ШаблоныСообщенийНаименованиеГруппыРассылокИОповещенийРасширеннаяПодсказка" id="119"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<CommandBar name="КомандыСохраненияИЗакрытия" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды сохранения и закрытия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды сохранения и закрытия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="КомандыСохраненияИЗакрытияРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<Button name="ШаблоныСообщенийЗаписать" id="38">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Записать</CommandName>
+					<ExtendedTooltip name="ШаблоныСообщенийЗаписатьРасширеннаяПодсказка" id="39"/>
+				</Button>
+				<Button name="ШаблоныСообщенийЗаписатьИЗакрыть" id="40">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+					<ExtendedTooltip name="ШаблоныСообщенийЗаписатьИЗакрытьРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="ШаблоныСообщенийЗакрыть" id="42">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Close</CommandName>
+					<ExtendedTooltip name="ШаблоныСообщенийЗакрытьРасширеннаяПодсказка" id="43"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОповещенияПриРаботеСЗаказами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ШаблоныСообщений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблоны сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Шаблон" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шаблон</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныСообщений</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Назначение" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Назначение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>300</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПредназначенДляSMS" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для SMS</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПредназначенДляЭлектронныхПисем" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для эл. писем</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ТипСобытия" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип события</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДляКого" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для кого</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВидОповещения" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид оповещения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыОповещенийКлиентам</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Использовать" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НаименованиеШаблона" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование шаблона</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НаименованиеВидаОповещения" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование вида оповещения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ГруппаРассылокИОповещений" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа рассылок и оповещений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыРассылокИОповещений</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НаименованиеГруппыРассылокИОповещений" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование группы рассылок и оповещений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ОтправлятьКлиентамSMSОЧастичныхОплатахЗаказовКлиентов" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять SMS о частичных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьКлиентамSMSОПолныхОплатахЗаказовКлиентов" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять SMS о полных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьКлиентамЭлПисьмаОПолныхОплатахЗаказовКлиентов" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять эл. письма о полных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьКлиентамЭлПисьмаОЧастичныхОплатахЗаказовКлиентов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять эл. письма о частичных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СоздаватьЗадачиМенеджерамПриПолныхОплатахЗаказов" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создавать задачи при полных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СоздаватьЗадачиМенеджерамПриГотовностиЗаказовКОтгрузке" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создавать задачи при готовности заказов к отгрузке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьМенеджерамЭлПисьмаОПолныхОплатахЗаказовКлиентов" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять эл. письма о полных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьМенеджерамЭлПисьмаЧастичныхОплатахЗаказовКлиентов" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять эл. письма о частичных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьМенеджерамSMSОПолныхОплатахЗаказовКлиентов" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять SMS о полных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьМенеджерамSMSОЧастичныхОплатахЗаказовКлиентов" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять SMS о частичных оплатах заказов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОдинДокументСообщениеSMSОтправляетSMSОдномуАдресату" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Один документ "Сообщение SMS" отправляет SMS одному адресату</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОтправлятьОповещенияКлиентамПриОплатеЗаказовНаличными" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять оповещения клиентам при оплате заказов наличными</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаНачалаОтслеживанияГотовностиЗаказовКОтгрузке" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала отслеживания готовности заказов к отгрузке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДнейБесплатногоХраненияТоваров" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дней бесплатного хранения товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Записать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сохранить</Action>
+		</Command>
+		<Command name="ЗаписатьИЗакрыть" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьИЗакрыть</Action>
+		</Command>
+		<Command name="ЗаполнитьТаблицуПредопределеннымиШаблонами" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить таблицу предопределенными шаблонами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьТаблицуПредопределеннымиШаблонами</Action>
+		</Command>
+	</Commands>
+</Form>

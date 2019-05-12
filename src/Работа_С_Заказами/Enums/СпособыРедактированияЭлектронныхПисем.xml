@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Enum uuid="249e44bf-9dc9-459a-96ab-b4d4724f0000">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРедактированияЭлектронныхПисем" category="Ref">
+				<xr:TypeId>ec365d95-fc38-4a34-bdf7-63062e41bce2</xr:TypeId>
+				<xr:ValueId>1038b35b-8e4e-4142-9640-37844802e1ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРедактированияЭлектронныхПисем" category="Manager">
+				<xr:TypeId>03e46c91-c629-4dfe-9cad-734955c9aa34</xr:TypeId>
+				<xr:ValueId>47276959-d543-4c4a-b23b-3bef7fd92f70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРедактированияЭлектронныхПисем" category="List">
+				<xr:TypeId>657c9ec8-7c86-4ee8-8531-19e6dbda0ef7</xr:TypeId>
+				<xr:ValueId>1c56057a-1dcb-4c93-81f1-35ca5c041551</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРедактированияЭлектронныхПисем</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

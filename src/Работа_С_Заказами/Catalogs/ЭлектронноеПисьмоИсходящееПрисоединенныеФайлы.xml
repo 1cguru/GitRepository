@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="32e1d8ce-86fb-41e8-933c-1d5510d992dc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>33282916-0fbd-4e0b-b545-84c2a5e35dff</xr:TypeId>
+				<xr:ValueId>19d4768e-06a6-4fc9-9381-8b5f7fd76036</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>8704cf68-221d-4c98-af78-49bcc8fc085a</xr:TypeId>
+				<xr:ValueId>fdf95b56-a617-4ce2-91ce-a06d7d77911f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>0bf62618-7cc3-4218-93f5-1538a4999d6a</xr:TypeId>
+				<xr:ValueId>b975512e-822e-4611-a87f-ce13aedeac3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы" category="List">
+				<xr:TypeId>ccc5f07d-dd15-4519-beec-70a20ebcac3a</xr:TypeId>
+				<xr:ValueId>0e21e594-2afa-4525-828b-8a46cb706b1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>168c6d0c-74b0-4db5-bc07-e859bf52af8f</xr:TypeId>
+				<xr:ValueId>b68004d7-5437-443a-bd40-8280ff543a24</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

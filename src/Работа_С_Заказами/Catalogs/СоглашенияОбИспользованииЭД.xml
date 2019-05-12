@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="28b4d8a5-1dcb-42d8-9226-fb1b8c0e93ac">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СоглашенияОбИспользованииЭД" category="Object">
+				<xr:TypeId>4d5f7e6d-b79e-4bfb-ab1f-4dd941caef9e</xr:TypeId>
+				<xr:ValueId>cdb6bde4-ead8-4940-955e-2e49049724c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СоглашенияОбИспользованииЭД" category="Ref">
+				<xr:TypeId>cffca768-5072-41cc-81c8-afc37aab1820</xr:TypeId>
+				<xr:ValueId>5400aec2-1e23-44a4-ad67-32dfbd0894a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СоглашенияОбИспользованииЭД" category="Selection">
+				<xr:TypeId>eab4438d-27d0-428f-9770-a25158170463</xr:TypeId>
+				<xr:ValueId>15533675-25a6-4f27-aba3-61bf9e97ee44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СоглашенияОбИспользованииЭД" category="List">
+				<xr:TypeId>2d7ea663-bd52-4844-a09f-e89923192612</xr:TypeId>
+				<xr:ValueId>b9f61ee7-f3c6-4f9f-ae38-a22186b7d6b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СоглашенияОбИспользованииЭД" category="Manager">
+				<xr:TypeId>57721d3d-b87e-4d0c-b305-cc9a85adade4</xr:TypeId>
+				<xr:ValueId>acff98d0-9b53-4dd8-9d12-b99062b061e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоглашенияОбИспользованииЭД</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

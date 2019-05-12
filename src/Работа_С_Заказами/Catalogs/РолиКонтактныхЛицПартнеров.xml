@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="ddbfad5f-b55a-4595-b074-40c02517b8ba">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РолиКонтактныхЛицПартнеров" category="Object">
+				<xr:TypeId>6aeb6a60-f20a-4c2d-8638-ded70bd13148</xr:TypeId>
+				<xr:ValueId>036a7d33-9e18-4af1-b59a-1fe051a18d82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РолиКонтактныхЛицПартнеров" category="Ref">
+				<xr:TypeId>da102ba9-1549-4882-8799-bacf754bfaaa</xr:TypeId>
+				<xr:ValueId>28743ed4-9698-4afd-9816-0db99cbee403</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РолиКонтактныхЛицПартнеров" category="Selection">
+				<xr:TypeId>eae80430-0195-4210-b3ec-49263f51b0e6</xr:TypeId>
+				<xr:ValueId>54294f4d-5907-4873-ac30-0c77de199707</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РолиКонтактныхЛицПартнеров" category="List">
+				<xr:TypeId>46584082-2da1-4d03-9d62-95c494e0b72e</xr:TypeId>
+				<xr:ValueId>a96b31de-4061-4e54-b763-96febb77c8e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РолиКонтактныхЛицПартнеров" category="Manager">
+				<xr:TypeId>b731ae1d-920e-4b53-8e09-cff06e19e0e7</xr:TypeId>
+				<xr:ValueId>b55c1d41-784c-4f42-9602-4ef9ef266431</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РолиКонтактныхЛицПартнеров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

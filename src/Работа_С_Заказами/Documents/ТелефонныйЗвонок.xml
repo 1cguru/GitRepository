@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Document uuid="732bdcc0-bc4a-48cb-9c73-c4645cbe64f6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТелефонныйЗвонок" category="Object">
+				<xr:TypeId>b079954c-25ed-45a7-9f3e-39312f0a4ce0</xr:TypeId>
+				<xr:ValueId>5f7b6f18-6b7d-4b54-b82f-1ad6e13ed73f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТелефонныйЗвонок" category="Ref">
+				<xr:TypeId>deafa459-54df-451c-b046-b539904303c5</xr:TypeId>
+				<xr:ValueId>62eb5816-215a-4ced-83aa-3e4e785a2388</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТелефонныйЗвонок" category="Selection">
+				<xr:TypeId>ef197ac5-5577-4e48-82ac-17b7ff551a22</xr:TypeId>
+				<xr:ValueId>d39422bf-cdea-4a1c-b2cd-2d9a0a51e470</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТелефонныйЗвонок" category="List">
+				<xr:TypeId>f5196a7e-37e3-43ee-b32c-c7af58e721de</xr:TypeId>
+				<xr:ValueId>96ba8440-844b-41d2-8f11-25201014f3af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТелефонныйЗвонок" category="Manager">
+				<xr:TypeId>5e1feafc-aa6e-40b1-af34-061ebc3e9350</xr:TypeId>
+				<xr:ValueId>04cf972c-ec8b-4436-819e-57f79805faa1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТелефонныйЗвонок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
